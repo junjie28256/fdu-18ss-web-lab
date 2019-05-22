@@ -6,7 +6,6 @@ include 'data.inc.php';
 $shippingThreshold = 10000;
 $shippingFlatAmount = 200;
 
-// 计算 subtotal, shipping, grand total
 // grand total = subtotal + shipping
 // 如果subtotal值超过阈值，则为100；反之则为$shippingFlatAmount
 $subtotal = $price1 * $quantity1 + $price2 * $quantity2 +$price3 * $quantity3 +$price4 * $quantity4;
